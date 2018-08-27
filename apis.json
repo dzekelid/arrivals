@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Arrivals",
+	"description": "This is a repository of arrivals APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/arrivals.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://arrivals.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Lufthansa",
+			"x-api-slug": "lufthansa",
+			"description": "Book your flights to Germany, Italy, UK or France online at attractive low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg",
+			"humanURL": "http://lufthansa.com",
+			"baseURL": "https://api.lufthansa.com//v1",
+			"tags": "Arrivals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/arrivals/master/_listings/lufthansa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transport for London Unified",
+			"x-api-slug": "transport-for-london-unified",
+			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
+			"humanURL": "https://tfl.gov.uk/",
+			"baseURL": "https://api.tfl.gov.uk//",
+			"tags": "Arrivals",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/arrivals/master/_listings/transport-for-london-unified/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Arrivals",
+	"include": [
+		{
+			"name": "Lufthansa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/arrivals/master/_listings/lufthansa/apis.yaml"
+		},
+		{
+			"name": "Transport for London Unified",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/arrivals/master/_listings/transport-for-london-unified/apis.yaml"
+		}
+	]
+}
